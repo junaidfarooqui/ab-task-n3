@@ -1,10 +1,10 @@
 <template>
-  <div className="container my-5">
-    <div v-if="isLoading" className="text-center article-placeholder">
-      <div className="spinner-border" role="status"/>
+  <div class="container my-5">
+    <div v-if="isLoading" class="text-center article-placeholder">
+      <div class="spinner-border" role="status"/>
     </div>
 
-    <div v-if="error" className="alert alert-danger">
+    <div v-if="error" class="alert alert-danger">
       <p>Failed to load article. Please try again later.</p>
     </div>
     <div v-else-if="article">
